@@ -12,13 +12,22 @@ export default {
     { text: "Documentation" },
   ],
 
-  colors: [
-    { electric: "yellow" },
-    { fire: "red" },
-    { normal: "pink" },
-    { water: "skyblue" },
-    { grass: "green" },
+  selects: [
+    { option: "Tipo" },
+    { option: "Ataque" },
+    { option: "Experiencia" },
   ],
+
+  electric: "#F2CB07",
+  fire: "#B23327",
+  normal: "#cccccc",
+  water: "#5BC7FA",
+  grass: "#64D368",
+  poison: "#E95AC9",
+  ghost: "#012e59",
+  ground: "#765B24",
+  dark: "#595358",
+  psychic: "#fa005a",
 
   pokemon: [
     {
@@ -73,7 +82,25 @@ export default {
       name: "tyranitar",
       attack: "134",
       defense: "110",
-      type: ["grass", "dark"],
+      type: ["ground", "dark"],
+    },
+    {
+      name: "bulbasaur",
+      attack: "40",
+      defense: "70",
+      type: ["grass", "poison"],
+    },
+    {
+      name: "koffing",
+      attack: "41",
+      defense: "58",
+      type: ["poison"],
+    },
+    {
+      name: "gengar",
+      attack: "90",
+      defense: "100",
+      type: ["ghost"],
     },
   ],
 };

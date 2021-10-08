@@ -103,10 +103,6 @@ a:focus {
   gap: 10%;
 }
 
-.cards {
-  min-height: 740px;
-}
-
 select {
   font-family: "Source Sans Pro";
   font-weight: 400;
@@ -172,7 +168,6 @@ select {
 
   width: 232.25px;
   height: 136.86px;
-  background: #f2cb07;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -192,8 +187,7 @@ select {
   gap: 5px;
 }
 
-.type-fire {
-  background: #d93e30;
+.type {
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
   border-radius: 11px;
   height: 15.87896728515625px;
@@ -209,110 +203,7 @@ select {
   color: #212121;
 }
 
-.type-flying {
-  background: #b060d6;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-normal {
-  background: #999999;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-water {
-  background: #07d6f2;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-electric {
-  background: #f2cb07;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-poison {
-  background: #e95ac9;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-grass {
-  background: #b18a24;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
-  border-radius: 11px;
-  height: 15.87896728515625px;
-  width: 50.00061798095703px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  color: #212121;
-}
-
-.type-dark {
-  background: #775c33;
+.type-aux {
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
   border-radius: 11px;
   height: 15.87896728515625px;
@@ -338,6 +229,7 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .stat p {

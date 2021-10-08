@@ -5,6 +5,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default {
+  links: [
+    { text: "Home" },
+    { text: "Pokedex" },
+    { text: "Legendaries" },
+    { text: "Documentation" },
+  ],
+
   colors: [
     { electric: "yellow" },
     { fire: "red" },
@@ -12,6 +19,7 @@ export default {
     { water: "skyblue" },
     { grass: "green" },
   ],
+
   pokemon: [
     {
       name: "pachirisu",

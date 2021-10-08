@@ -11,7 +11,7 @@
   border: none;
 }
 
-.gallery-desktop {
+#app {
   width: 100%;
   min-height: 1024px;
 
@@ -33,13 +33,13 @@
   background-color: #f5db13;
 }
 
-ul {
+.list {
   display: flex;
   gap: 4%;
   width: 575px;
 }
 
-a {
+.link {
   font-family: "Karla";
   font-weight: 400;
   font-size: 25px;
@@ -129,7 +129,9 @@ select {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
 
+.footer-text {
   font-family: "Karla";
   font-weight: 700;
   font-size: 18px;

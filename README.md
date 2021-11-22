@@ -1,9 +1,18 @@
-# PokeReact
+# POKEREACT
 
-### Notes
+This app shows some Pokémon stats
 
-- Replicate the Figma design placed at:
-  https://www.figma.com/file/7XF8BXBMex5PE5KIQlbuYZ/Pokedex-Desktop?node-id=0%3A1
+## Before starting!
+
+## WITHOUT DOCKER
+
+### Requirements
+
+- Node
+- Npm
+- React & React DOM
+
+## WITH DOCKER
 
 ### Requirements
 
@@ -42,5 +51,3 @@ _Docker dependencies_
   docker run --name pokereact -it -v $(pwd):/app -p 1234:1234 --rm codeableorg/pokereact
   ```
 - Open your browser at http://localhost:1234
-
-### You are ready to start coding!

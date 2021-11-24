@@ -2,7 +2,7 @@
 
 This app shows some Pokémon stats
 
-![Project Image](c4-pokereact-JosHeredia26/src/assets/images/project-image.PNG)
+![Project Image](c4-pokereact-JosHeredia26/src/static/images/project-image.PNG)
 
 ## Before starting!
 
